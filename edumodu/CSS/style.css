@@ -1,0 +1,355 @@
+/*----Default css------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+container-full{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;  
+}
+.container{
+ width: 1100px;
+ margin: 0 auto; 
+ padding: 0 15px;
+}
+.col-50{
+    width: 50%; 
+    float: left;
+    padding: 0 15px;
+}
+.col-33{
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+}
+.col-25{
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+.col-30{
+    width: 30%;
+    float: left;
+    padding: 0 15px;
+}
+.col-70{
+    width: 70%;
+    float: left;
+    padding:0 15px;
+}
+.col-20{
+    width: 20%;
+    float: left;
+    padding: 0 15px;
+}
+.col-80{
+    width: 80%;
+    float: left;
+    padding: 0 15px;
+}
+.container:before,
+.container:after,
+.container-full:before,
+.container-full:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+body{
+    font-family: 'Roboto', sans-serif;  
+}
+/*--Default css end--*/
+/*
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+/*========site css =======*/
+/*========header css start========*/
+header{
+    background: whitesmoke;
+}
+.main-menu li a{
+text-decoration: none;
+text-transform: capitalize;
+font-size: 16px;
+color: #666666;
+margin:0 0 0 10px ;
+transition:0.3;
+
+
+}
+.col-70 li {
+    float: right;
+    list-style: none;
+    padding: 0 5px;
+}
+header {
+    padding: 15px 0;
+}
+.main-menu {
+    padding: 18px 0;
+}
+.main-menu li a:hover{
+color: #ff5421;
+}
+.main-menu li  :hover i{
+    transform:rotate(180deg);
+}
+.main-menu li a i{
+  transition: 0.3s;
+}
+ /*=======header css end=========*/
+
+
+
+ /*=======home section css start======*/
+.home h6{
+     font-size:16px;
+     font-weight: 400;
+     letter-spacing: 4px;
+     color: #FF5421;
+}
+.home h1{
+    font-size: 70px;
+    color:#FFFFFF ;
+    line-height:77px ;
+    padding: 20px 0;
+}
+.home p {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 29px;
+    padding: 10px 0;
+}
+.home{
+    background: url(../img/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 0;
+    background-position: center;
+}
+.home btn{
+    width: 156px;
+    height: 50px;
+}
+.home button {
+    background:#FF5421;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    height: 56px;
+    width: 150px;
+    border-style: none;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+/*======home section css end=======*/
+/*=======catagory section css start=====*/
+.catagory-section{
+    background:#ff5421 ;
+    padding: 80px 0;
+    color: #ffff;
+}
+.ctg-box{
+ display: flex;
+}
+.ctg-icon i{
+    color: #FE5421;
+    background: #FFFFFF;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 24px;
+    border-radius: 50%;
+}
+.ctg-detail{
+    padding-left: 20px;
+}
+.ctg-detail h6{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.ctg-detail p{
+    margin-top: 24px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+/*=========catagory section css end=====*/
+/*=========about section css start======*/
+.=====section{
+    padding: 100px 0;
+}
+.about {
+    padding: 100px 0x;
+    margin: 100px;
+}
+.about-left span{
+    color: #FF5421;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 800px;
+}
+.about-left{
+    text-transform: capitalize;
+    font-size: 44px;
+    color:#132643 ;
+    font-weight: 400px; ;
+}
+.about button{
+    background:#f64b17 ;
+    padding: 18px 35px;
+    color:#ffffff ;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 14px;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 47px;
+}
+.about-left h2{
+    margin-top: 10px;
+    
+    
+}
+.about p{
+    color:#61686E ;
+    line-height: 30px;
+}
+.about-right{
+    margin-top: 120px;
+    
+}
+/*========about sectuion css end========*/
+/*=========program section css======*/
+img{
+    height: auto;
+    width: 100%;
+}
+.programs{
+    background: #f5f5f5;
+    padding: 100px 0;
+}
+.section-title{
+    text-align: center;
+    padding: 55px 0;
+}
+.section-title span{
+    color:#fb501d ;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    
+}
+.section-title h2{
+    font-size: 44px;
+    line-height: 44px;
+    color: #132643;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.item-img img{
+   width: 100%;
+   height:250px; 
+}
+.section-item-content{
+    padding: 20px;
+    
+}
+.section-item-box{
+    background:#FFFFFF;
+    
+}
+.section-item-content h3 a{
+   color:#132643 ;
+   text-decoration: none;
+   font-size: 24px;
+   line-height: 28.8px;
+   text-transform: capitalize;
+   transition: 0.3s;
+}
+.section-item-content h3 a:hover{
+    color:#ff5421
+}
+
+
+.section-item-content p{
+   color: #61686E;
+   font-size: 16px;
+   line-height: 24px;
+   padding: 15px 0;
+}
+.section-item-content span a{
+   color: #E43804;
+   font-size: 14px;
+   line-height: 14px; 
+text-decoration: none;
+transition: 0.3s;
+}
+.section-item-content span a:hover{
+    text-decoration: underline;
+}
+
+
+/*======program section css end=====*/
+
+
+
+/*======courses section css start=======*/
+.courses .section-item-box {
+    background:#fafbff ;
+    margin-bottom: 20px;
+}
+
+.free{
+    background: #ff5421;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 5px 8px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.rating{
+    margin:10px 0 20px 0;
+    font-size:14px ;
+
+}
+/*======courses section css start=======*/
+
+
+
+.counter{
+    padding: 88px 0;
+    background-color:#ff5421 ;
+    
+    
+
+}
+
+.counter h2{
+    color: #FFFFFF;
+    font-size: 44px;
+    line-height: 52.8px;
+    text-transform: capitalize;
+    
+}
+.counter span{
+  font-size: 18px;
+  line-height: 45px;
+  color: #f5f5f5;
+  text-transform: uppercase;  
+}
+
